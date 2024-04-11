@@ -18,6 +18,9 @@ body {
   width: 33%;
   height: 100%;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .divider {
@@ -35,10 +38,20 @@ body {
   height: 80%;
 }
 
-p {
+.divider p {
  color: #FFF;
  font-size: 7.5rem;
  font-family: "Norse-Bold";
+}
+
+.credits {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.left-section a {
+  color: #FFF;
 }
 
 .right-section {
