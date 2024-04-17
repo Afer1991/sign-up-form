@@ -1,5 +1,6 @@
 *, *::before, *::after {
   margin: 0;
+  overflow: auto;
 }
 
 @font-face {
@@ -146,6 +147,7 @@ button {
   padding: 12px 40px;
   border-radius: 8px;
   font-size: 1.25rem;
+  border: none;
 }
 
 .login-text {
